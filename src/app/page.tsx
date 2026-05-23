@@ -34,7 +34,7 @@ export default function HomePage() {
         <div className="animate-fade-up">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#4169E1]/20 border border-[#4169E1]/40 text-sm font-medium text-[#0D0D0D] mb-8">
             <span className="w-2 h-2 rounded-full bg-[#4169E1] animate-pulse" />
-            Disponible para prácticas y proyectos
+            Disponible para empleos, nuevas oportunidades y proyectos colaborativos
           </div>
 
           <h1 className="font-display text-5xl md:text-7xl font-black leading-[1.05] tracking-tight">

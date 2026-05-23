@@ -4,13 +4,13 @@ export const personalInfo = {
   name: "Gabriel Pizarro Rivera",
   title: "Ingeniero Civil Informático",
   university: "Pontificia Universidad Católica de Valparaíso",
-  location: "Valparaíso, Chile",
-  email: "gabriel.pizarro@pucv.cl",
+  location: "Santiago Chile",
+  email: "gpizarror2002@gmail.com",
   linkedin: "https://www.linkedin.com/in/gabriel-pizarro-rivera/",
   github: "https://github.com/GaboPizarro",
   bio: "Recién Titulado de Ingeniería Civil Informática apasionado por el desarrollo de software, la inteligencia artificial y la innovación tecnológica. Busco crear soluciones que generen impacto real.",
   avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-  skills: ["TypeScript", "Python", "React", "Node.js", "PostgreSQL", "Docker", "AWS", "Machine Learning"],
+  skills: ["Python", "Excel", "PowerBI", "SQL", "VBA", "Machine Learning"],
 };
 
 export const educacionData: TimelineItem[] = [
@@ -61,12 +61,12 @@ export const educacionData: TimelineItem[] = [
 export const practicasData: TimelineItem[] = [
   {
     id: "prac-1",
-    title: "Práctica Profesional – Ingeniero de Software",
-    institution: "Bci Tecnología",
+    title: "Práctica Profesional – Analista de Datos",
+    institution: "Claro Chile SA",
     location: "Santiago, Chile",
     period: "Ene 2024 — Mar 2024",
     description: "Desarrollo de microservicios en Node.js y TypeScript para el sistema de pagos del banco. Implementación de APIs REST con autenticación OAuth2. Reducción del 30% en latencia de transacciones mediante optimización de queries SQL.",
-    tags: ["Node.js", "TypeScript", "PostgreSQL", "Docker", "OAuth2"],
+    tags: ["Excel", "Python", "PowerBI", "SQL", "VBA"],
     photos: [
       { src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=500&fit=crop", alt: "Oficinas Bci", caption: "Torre Bci, Santiago" },
       { src: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop", alt: "Trabajo en equipo", caption: "Daily stand-up con el equipo" },
@@ -75,12 +75,12 @@ export const practicasData: TimelineItem[] = [
   },
   {
     id: "prac-2",
-    title: "Práctica Laboral – Desarrollador Full Stack",
-    institution: "Startup Fintual",
+    title: "Práctica Profesional – Analista de Procesos",
+    institution: "Caja de Compensación 18 de Septiembre",
     location: "Santiago, Chile",
     period: "Ene 2023 — Mar 2023",
     description: "Desarrollo de funcionalidades en el panel de inversiones con React y Ruby on Rails. Implementación de visualizaciones de datos financieros con D3.js. Integración con APIs de bolsas de valores latinoamericanas.",
-    tags: ["React", "Ruby on Rails", "D3.js", "PostgreSQL", "AWS"],
+    tags: ["Excel", "Bizagi", "PowerPoint", "Draw.io"],
     photos: [
       { src: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop", alt: "Oficinas Fintual", caption: "Oficinas Fintual, Providencia" },
       { src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop", alt: "Dashboard financiero", caption: "Dashboard de inversiones" },
