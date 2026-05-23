@@ -4,8 +4,8 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { ContactForm } from "@/components/sections/ContactForm";
 
 export const metadata = {
-  title: "Contacto — Sebastián Morales",
-  description: "Contáctate con Sebastián Morales, Ingeniero Civil Informático.",
+  title: "Contacto — Gabriel Pizarro Rivera",
+  description: "Contáctate con Gabriel Pizarro Rivera, Ingeniero Civil Informático.",
 };
 
 const contactCards = [
@@ -19,14 +19,14 @@ const contactCards = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "sebastian-morales",
+    value: "gabriel-pizarro-rivera",
     href: personalInfo.linkedin,
     desc: "Conéctate profesionalmente",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "sebastianmorales",
+    value: "GaboPizarro",
     href: personalInfo.github,
     desc: "Mira mi código",
   },
@@ -71,7 +71,7 @@ export default function ContactoPage() {
                   "Colaboraciones académicas y de investigación",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#F5C518] mt-1.5 flex-shrink-0" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#4169E1] mt-1.5 flex-shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -86,9 +86,9 @@ export default function ContactoPage() {
                   <Wrapper
                     key={label}
                     {...(href ? { href, target: "_blank", rel: "noopener noreferrer" } : {})}
-                    className="group p-4 bg-white rounded-2xl border border-[#E8E0D0] hover:border-[#F5C518] transition-all card-lift"
+                    className="group p-4 bg-white rounded-2xl border border-[#E8E0D0] hover:border-[#4169E1] transition-all card-lift"
                   >
-                    <div className="w-8 h-8 rounded-lg bg-[#F5F0E8] group-hover:bg-[#F5C518] flex items-center justify-center mb-2 transition-colors">
+                    <div className="w-8 h-8 rounded-lg bg-[#F5F0E8] group-hover:bg-[#4169E1] flex items-center justify-center mb-2 transition-colors">
                       <Icon size={15} />
                     </div>
                     <p className="text-xs font-semibold text-[#6B6B6B] uppercase tracking-wider">{label}</p>
@@ -100,7 +100,7 @@ export default function ContactoPage() {
             </div>
 
             {/* Quote */}
-            <blockquote className="border-l-4 border-[#F5C518] pl-4 py-2">
+            <blockquote className="border-l-4 border-[#4169E1] pl-4 py-2">
               <p className="font-display text-lg italic text-[#3A3A3A]">
                 "El mejor código es aquel que resuelve problemas reales para personas reales."
               </p>
@@ -112,7 +112,7 @@ export default function ContactoPage() {
             className="bg-white rounded-3xl p-8 border border-[#E8E0D0] shadow-sm animate-fade-up delay-200"
           >
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-xl bg-[#F5C518] flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-[#4169E1] flex items-center justify-center">
                 <MessageSquare size={18} />
               </div>
               <div>

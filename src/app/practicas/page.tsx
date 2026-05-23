@@ -5,8 +5,8 @@ import { TagPill } from "@/components/ui/TagPill";
 import { PhotoCarousel } from "@/components/ui/PhotoCarousel";
 
 export const metadata = {
-  title: "Prácticas — Sebastián Morales",
-  description: "Experiencia laboral de Sebastián Morales en empresas tecnológicas chilenas.",
+  title: "Prácticas — Gabriel Pizarro Rivera",
+  description: "Experiencia laboral de Gabriel Pizarro Rivera en empresas tecnológicas chilenas.",
 };
 
 export default function PracticasPage() {
@@ -30,24 +30,24 @@ export default function PracticasPage() {
                 <div>
                   {/* Header */}
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="w-12 h-12 rounded-2xl bg-[#F5C518] flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 rounded-2xl bg-[#4169E1] flex items-center justify-center flex-shrink-0">
                       <Briefcase size={22} className="text-[#0D0D0D]" />
                     </div>
                     <div>
                       <h2 className="font-display text-xl font-bold leading-tight">
                         {item.title}
                       </h2>
-                      <p className="text-[#F5C518] font-semibold mt-0.5">{item.institution}</p>
+                      <p className="text-[#4169E1] font-semibold mt-0.5">{item.institution}</p>
                     </div>
                   </div>
 
                   <div className="flex flex-wrap gap-4 text-sm text-[#6B6B6B] mb-4">
                     <div className="flex items-center gap-1.5">
-                      <Calendar size={13} className="text-[#F5C518]" />
+                      <Calendar size={13} className="text-[#4169E1]" />
                       {item.period}
                     </div>
                     <div className="flex items-center gap-1.5">
-                      <MapPin size={13} className="text-[#F5C518]" />
+                      <MapPin size={13} className="text-[#4169E1]" />
                       {item.location}
                     </div>
                   </div>
@@ -82,7 +82,7 @@ export default function PracticasPage() {
           <p className="text-[#6B6B6B] mb-4">¿Interesado en trabajar juntos?</p>
           <a
             href="/contacto"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-[#0D0D0D] text-white rounded-full font-medium hover:bg-[#F5C518] hover:text-[#0D0D0D] transition-all"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-[#0D0D0D] text-white rounded-full font-medium hover:bg-[#4169E1] hover:text-[#0D0D0D] transition-all"
           >
             Contáctame <ExternalLink size={16} />
           </a>

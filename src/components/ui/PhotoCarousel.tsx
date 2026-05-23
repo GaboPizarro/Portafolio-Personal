@@ -55,14 +55,14 @@ export function PhotoCarousel({ photos, title }: PhotoCarouselProps) {
         <>
           <button
             onClick={scrollPrev}
-            className="absolute left-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/90 hover:bg-[#F5C518] flex items-center justify-center transition-all opacity-0 group-hover:opacity-100 shadow-md"
+            className="absolute left-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/90 hover:bg-[#4169E1] flex items-center justify-center transition-all opacity-0 group-hover:opacity-100 shadow-md"
             aria-label="Anterior"
           >
             <ChevronLeft size={16} />
           </button>
           <button
             onClick={scrollNext}
-            className="absolute right-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/90 hover:bg-[#F5C518] flex items-center justify-center transition-all opacity-0 group-hover:opacity-100 shadow-md"
+            className="absolute right-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/90 hover:bg-[#4169E1] flex items-center justify-center transition-all opacity-0 group-hover:opacity-100 shadow-md"
             aria-label="Siguiente"
           >
             <ChevronRight size={16} />
@@ -75,7 +75,7 @@ export function PhotoCarousel({ photos, title }: PhotoCarouselProps) {
                 key={idx}
                 onClick={() => emblaApi?.scrollTo(idx)}
                 className={`w-1.5 h-1.5 rounded-full transition-all ${
-                  idx === current ? "bg-[#F5C518] w-4" : "bg-white/60"
+                  idx === current ? "bg-[#4169E1] w-4" : "bg-white/60"
                 }`}
               />
             ))}

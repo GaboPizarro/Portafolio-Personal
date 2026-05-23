@@ -7,8 +7,8 @@ import { TagPill } from "@/components/ui/TagPill";
 import { PhotoGrid } from "@/components/ui/PhotoGrid";
 
 export const metadata = {
-  title: "Proyectos — Sebastián Morales",
-  description: "Proyectos de software desarrollados por Sebastián Morales.",
+  title: "Proyectos — Gabriel Pizarro Rivera",
+  description: "Proyectos de software desarrollados por Gabriel Pizarro Rivera.",
 };
 
 export default function ProyectosPage() {
@@ -35,8 +35,8 @@ export default function ProyectosPage() {
             </div>
             <div className="p-8 md:p-10 text-white flex flex-col justify-center">
               <div className="flex items-center gap-2 mb-4">
-                <Calendar size={13} className="text-[#F5C518]" />
-                <span className="text-xs text-[#F5C518] font-mono">{proyectosData[0].year}</span>
+                <Calendar size={13} className="text-[#4169E1]" />
+                <span className="text-xs text-[#4169E1] font-mono">{proyectosData[0].year}</span>
               </div>
               <h2 className="font-display text-3xl font-black">{proyectosData[0].title}</h2>
               <p className="mt-3 text-[#A0A0A0] text-sm leading-relaxed">
@@ -52,13 +52,13 @@ export default function ProyectosPage() {
               <div className="mt-6 flex gap-3">
                 {proyectosData[0].github && (
                   <a href={proyectosData[0].github} target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-[#F5C518] hover:text-[#0D0D0D] text-sm font-medium transition-all">
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-[#4169E1] hover:text-[#0D0D0D] text-sm font-medium transition-all">
                     <Github size={14} /> GitHub
                   </a>
                 )}
                 {proyectosData[0].demo && (
                   <a href={proyectosData[0].demo} target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#F5C518] text-[#0D0D0D] text-sm font-medium hover:opacity-90 transition-all">
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#4169E1] text-[#0D0D0D] text-sm font-medium hover:opacity-90 transition-all">
                     <ExternalLink size={14} /> Demo
                   </a>
                 )}
@@ -86,13 +86,13 @@ export default function ProyectosPage() {
                   <div className="flex gap-2">
                     {project.github && (
                       <a href={project.github} target="_blank" rel="noopener noreferrer"
-                        className="p-2 rounded-full hover:bg-[#F5C518] transition-all">
+                        className="p-2 rounded-full hover:bg-[#4169E1] transition-all">
                         <Github size={15} />
                       </a>
                     )}
                     {project.demo && (
                       <a href={project.demo} target="_blank" rel="noopener noreferrer"
-                        className="p-2 rounded-full hover:bg-[#F5C518] transition-all">
+                        className="p-2 rounded-full hover:bg-[#4169E1] transition-all">
                         <ExternalLink size={15} />
                       </a>
                     )}

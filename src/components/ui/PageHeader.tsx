@@ -15,7 +15,7 @@ export function PageHeader({ number, title, subtitle }: PageHeaderProps) {
         {subtitle && (
           <p className="mt-4 text-[#6B6B6B] text-lg max-w-2xl">{subtitle}</p>
         )}
-        <div className="mt-6 w-16 h-0.5 bg-[#F5C518]" />
+        <div className="mt-6 w-16 h-0.5 bg-[#4169E1]" />
       </div>
     </div>
   );

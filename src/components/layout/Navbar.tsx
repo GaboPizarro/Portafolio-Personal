@@ -27,9 +27,9 @@ export function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className="font-display text-lg font-bold tracking-tight hover:text-[#F5C518] transition-colors"
+          className="font-display text-lg font-bold tracking-tight hover:text-[#4169E1] transition-colors"
         >
-          <span className="text-[#F5C518]">S.</span>Morales
+          <span className="text-[#4169E1]">G.</span>Pizarro
         </Link>
 
         {/* Desktop links */}
@@ -51,7 +51,7 @@ export function Navbar() {
                   )}
                 >
                   {active && (
-                    <span className="absolute inset-x-3 -bottom-px h-0.5 bg-[#F5C518] rounded-full" />
+                    <span className="absolute inset-x-3 -bottom-px h-0.5 bg-[#4169E1] rounded-full" />
                   )}
                   {link.label}
                 </Link>
@@ -63,7 +63,7 @@ export function Navbar() {
         {/* CTA */}
         <Link
           href="/contacto"
-          className="hidden md:inline-flex items-center gap-2 px-4 py-2 bg-[#0D0D0D] text-[#FAF7F2] text-sm font-medium rounded-full hover:bg-[#F5C518] hover:text-[#0D0D0D] transition-all duration-200"
+          className="hidden md:inline-flex items-center gap-2 px-4 py-2 bg-[#0D0D0D] text-[#FAF7F2] text-sm font-medium rounded-full hover:bg-[#4169E1] hover:text-[#0D0D0D] transition-all duration-200"
         >
           Contáctame
         </Link>
@@ -95,7 +95,7 @@ export function Navbar() {
                     className={cn(
                       "block px-3 py-2.5 text-sm font-medium rounded-lg transition-colors",
                       active
-                        ? "bg-[#F5C518] text-[#0D0D0D]"
+                        ? "bg-[#4169E1] text-[#0D0D0D]"
                         : "text-[#6B6B6B] hover:bg-[#F5F0E8] hover:text-[#0D0D0D]"
                     )}
                   >

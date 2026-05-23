@@ -4,8 +4,8 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { PhotoCarousel } from "@/components/ui/PhotoCarousel";
 
 export const metadata = {
-  title: "Deportes — Sebastián Morales",
-  description: "Vida deportiva y actividades físicas de Sebastián Morales.",
+  title: "Deportes — Gabriel Pizarro Rivera",
+  description: "Vida deportiva y actividades físicas de Gabriel Pizarro Rivera.",
 };
 
 export default function DeportesPage() {
@@ -38,10 +38,10 @@ export default function DeportesPage() {
                   </div>
 
                   <h2 className="font-display text-2xl font-black">{item.sport}</h2>
-                  <p className="text-[#F5C518] font-semibold mt-1 text-sm">{item.role}</p>
+                  <p className="text-[#4169E1] font-semibold mt-1 text-sm">{item.role}</p>
 
                   <div className="flex items-center gap-2 text-sm text-[#6B6B6B] mt-2">
-                    <Calendar size={13} className="text-[#F5C518]" />
+                    <Calendar size={13} className="text-[#4169E1]" />
                     {item.period}
                   </div>
 
@@ -55,7 +55,7 @@ export default function DeportesPage() {
                     <ul className="space-y-2">
                       {item.achievements.map((ach, i) => (
                         <li key={i} className="flex items-start gap-3 text-sm">
-                          <div className="w-5 h-5 rounded-full bg-[#F5C518] flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <div className="w-5 h-5 rounded-full bg-[#4169E1] flex items-center justify-center flex-shrink-0 mt-0.5">
                             <Trophy size={10} className="text-[#0D0D0D]" />
                           </div>
                           <span className="text-[#3A3A3A]">{ach}</span>
@@ -74,7 +74,7 @@ export default function DeportesPage() {
           <p className="font-display text-2xl font-bold mb-2">
             El deporte y el código tienen algo en común:
           </p>
-          <p className="text-[#F5C518] font-display text-xl">
+          <p className="text-[#4169E1] font-display text-xl">
             la práctica constante hace al maestro.
           </p>
         </div>

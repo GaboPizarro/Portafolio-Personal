@@ -45,7 +45,7 @@ const config: Config = {
         ring: "hsl(var(--ring))",
         // Picto palette
         picto: {
-          yellow: "#F5C518",
+          royal: "#4169E1",
           orange: "#FF6B35",
           dark: "#0D0D0D",
           gray: "#1A1A1A",

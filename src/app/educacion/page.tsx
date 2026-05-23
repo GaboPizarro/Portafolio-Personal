@@ -5,8 +5,8 @@ import { TagPill } from "@/components/ui/TagPill";
 import { PhotoCarousel } from "@/components/ui/PhotoCarousel";
 
 export const metadata = {
-  title: "Educación — Sebastián Morales",
-  description: "Formación académica de Sebastián Morales, Ingeniero Civil Informático.",
+  title: "Educación — Gabriel Pizarro Rivera",
+  description: "Formación académica de Gabriel Pizarro Rivera, Ingeniero Civil Informático.",
 };
 
 export default function EducacionPage() {
@@ -22,7 +22,7 @@ export default function EducacionPage() {
         {/* Timeline */}
         <div className="relative">
           {/* Vertical line */}
-          <div className="absolute left-6 top-0 bottom-0 w-px bg-gradient-to-b from-[#F5C518] via-[#E8E0D0] to-transparent hidden md:block" />
+          <div className="absolute left-6 top-0 bottom-0 w-px bg-gradient-to-b from-[#4169E1] via-[#E8E0D0] to-transparent hidden md:block" />
 
           <div className="space-y-16">
             {educacionData.map((item, idx) => (
@@ -33,7 +33,7 @@ export default function EducacionPage() {
               >
                 {/* Timeline dot */}
                 <div className="hidden md:flex flex-col items-center">
-                  <div className="relative z-10 w-12 h-12 rounded-full bg-[#F5C518] flex items-center justify-center shadow-md">
+                  <div className="relative z-10 w-12 h-12 rounded-full bg-[#4169E1] flex items-center justify-center shadow-md">
                     <GraduationCap size={20} className="text-[#0D0D0D]" />
                   </div>
                 </div>
@@ -51,15 +51,15 @@ export default function EducacionPage() {
                       <h2 className="font-display text-2xl font-bold leading-tight">
                         {item.title}
                       </h2>
-                      <p className="text-[#F5C518] font-semibold mt-1">{item.institution}</p>
+                      <p className="text-[#4169E1] font-semibold mt-1">{item.institution}</p>
 
                       <div className="mt-3 flex flex-col gap-1.5">
                         <div className="flex items-center gap-2 text-sm text-[#6B6B6B]">
-                          <Calendar size={13} className="text-[#F5C518]" />
+                          <Calendar size={13} className="text-[#4169E1]" />
                           {item.period}
                         </div>
                         <div className="flex items-center gap-2 text-sm text-[#6B6B6B]">
-                          <MapPin size={13} className="text-[#F5C518]" />
+                          <MapPin size={13} className="text-[#4169E1]" />
                           {item.location}
                         </div>
                       </div>

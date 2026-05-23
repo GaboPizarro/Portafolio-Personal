@@ -44,7 +44,7 @@ export function ContactForm() {
   };
 
   const inputClass =
-    "w-full px-4 py-3 rounded-xl border border-[#E8E0D0] bg-[#FAF7F2] text-sm text-[#0D0D0D] placeholder:text-[#A0A0A0] focus:outline-none focus:ring-2 focus:ring-[#F5C518] focus:border-transparent transition-all";
+    "w-full px-4 py-3 rounded-xl border border-[#E8E0D0] bg-[#FAF7F2] text-sm text-[#0D0D0D] placeholder:text-[#A0A0A0] focus:outline-none focus:ring-2 focus:ring-[#4169E1] focus:border-transparent transition-all";
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
@@ -143,7 +143,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full flex items-center justify-center gap-2 px-6 py-3.5 bg-[#0D0D0D] text-white rounded-xl font-semibold text-sm hover:bg-[#F5C518] hover:text-[#0D0D0D] transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+        className="w-full flex items-center justify-center gap-2 px-6 py-3.5 bg-[#0D0D0D] text-white rounded-xl font-semibold text-sm hover:bg-[#4169E1] hover:text-[#0D0D0D] transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
       >
         {status === "loading" ? (
           <>

@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <p className="font-display text-lg font-bold">
-              <span className="text-[#F5C518]">S.</span>Morales
+              <span className="text-[#4169E1]">G.</span>Pizarro
             </p>
             <p className="text-sm text-[#6B6B6B] mt-1">
               Ingeniero Civil Informático · {personalInfo.university}
@@ -22,7 +22,7 @@ export function Footer() {
               href={personalInfo.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-full hover:bg-[#F5C518] hover:text-[#0D0D0D] transition-all"
+              className="p-2 rounded-full hover:bg-[#4169E1] hover:text-[#0D0D0D] transition-all"
               aria-label="GitHub"
             >
               <Github size={18} />
@@ -31,14 +31,14 @@ export function Footer() {
               href={personalInfo.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-full hover:bg-[#F5C518] hover:text-[#0D0D0D] transition-all"
+              className="p-2 rounded-full hover:bg-[#4169E1] hover:text-[#0D0D0D] transition-all"
               aria-label="LinkedIn"
             >
               <Linkedin size={18} />
             </a>
             <a
               href={`mailto:${personalInfo.email}`}
-              className="p-2 rounded-full hover:bg-[#F5C518] hover:text-[#0D0D0D] transition-all"
+              className="p-2 rounded-full hover:bg-[#4169E1] hover:text-[#0D0D0D] transition-all"
               aria-label="Email"
             >
               <Mail size={18} />

@@ -32,15 +32,15 @@ export default function HomePage() {
       {/* Hero */}
       <section className="pt-20 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div className="animate-fade-up">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#F5C518]/20 border border-[#F5C518]/40 text-sm font-medium text-[#0D0D0D] mb-8">
-            <span className="w-2 h-2 rounded-full bg-[#F5C518] animate-pulse" />
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#4169E1]/20 border border-[#4169E1]/40 text-sm font-medium text-[#0D0D0D] mb-8">
+            <span className="w-2 h-2 rounded-full bg-[#4169E1] animate-pulse" />
             Disponible para prácticas y proyectos
           </div>
 
           <h1 className="font-display text-5xl md:text-7xl font-black leading-[1.05] tracking-tight">
-            Sebastián
+            Gabriel
             <br />
-            <span className="text-[#F5C518]">Morales</span>
+            <span className="text-[#4169E1]">Pizarro</span>
           </h1>
 
           <div className="mt-4 flex items-center gap-3">
@@ -55,20 +55,20 @@ export default function HomePage() {
           </p>
 
           <div className="mt-3 flex items-center gap-2 text-sm text-[#6B6B6B]">
-            <MapPin size={14} className="text-[#F5C518]" />
+            <MapPin size={14} className="text-[#4169E1]" />
             {personalInfo.location} · {personalInfo.university}
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/proyectos"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[#0D0D0D] text-white rounded-full font-medium hover:bg-[#F5C518] hover:text-[#0D0D0D] transition-all duration-200 group"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#0D0D0D] text-white rounded-full font-medium hover:bg-[#4169E1] hover:text-[#0D0D0D] transition-all duration-200 group"
             >
               Ver proyectos
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             <a
-              href="/cv-sebastian-morales.pdf"
+              href="/cv-gabriel-pizarro.pdf"
               download
               className="inline-flex items-center gap-2 px-6 py-3 border border-[#0D0D0D] rounded-full font-medium hover:bg-[#0D0D0D] hover:text-white transition-all duration-200"
             >
@@ -79,15 +79,15 @@ export default function HomePage() {
 
           <div className="mt-8 flex items-center gap-4">
             <a href={personalInfo.github} target="_blank" rel="noopener noreferrer"
-              className="p-2.5 rounded-full border border-[#E8E0D0] hover:border-[#F5C518] hover:bg-[#F5C518] transition-all">
+              className="p-2.5 rounded-full border border-[#E8E0D0] hover:border-[#4169E1] hover:bg-[#4169E1] transition-all">
               <Github size={18} />
             </a>
             <a href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer"
-              className="p-2.5 rounded-full border border-[#E8E0D0] hover:border-[#F5C518] hover:bg-[#F5C518] transition-all">
+              className="p-2.5 rounded-full border border-[#E8E0D0] hover:border-[#4169E1] hover:bg-[#4169E1] transition-all">
               <Linkedin size={18} />
             </a>
             <a href={`mailto:${personalInfo.email}`}
-              className="p-2.5 rounded-full border border-[#E8E0D0] hover:border-[#F5C518] hover:bg-[#F5C518] transition-all">
+              className="p-2.5 rounded-full border border-[#E8E0D0] hover:border-[#4169E1] hover:bg-[#4169E1] transition-all">
               <Mail size={18} />
             </a>
           </div>
@@ -97,7 +97,7 @@ export default function HomePage() {
         <div className="animate-fade-up delay-200 flex justify-center lg:justify-end">
           <div className="relative">
             {/* Decoration */}
-            <div className="absolute -top-4 -right-4 w-72 h-72 rounded-3xl bg-[#F5C518]/30 rotate-6" />
+            <div className="absolute -top-4 -right-4 w-72 h-72 rounded-3xl bg-[#4169E1]/30 rotate-6" />
             <div className="absolute -bottom-4 -left-4 w-72 h-72 rounded-3xl bg-[#0D0D0D]/5 -rotate-3" />
 
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden shadow-2xl">
@@ -131,9 +131,9 @@ export default function HomePage() {
             <Link
               key={href}
               href={href}
-              className="card-lift group p-5 rounded-2xl border border-[#E8E0D0] bg-white hover:border-[#F5C518] transition-all"
+              className="card-lift group p-5 rounded-2xl border border-[#E8E0D0] bg-white hover:border-[#4169E1] transition-all"
             >
-              <div className="w-10 h-10 rounded-xl bg-[#F5F0E8] flex items-center justify-center mb-3 group-hover:bg-[#F5C518] transition-colors">
+              <div className="w-10 h-10 rounded-xl bg-[#F5F0E8] flex items-center justify-center mb-3 group-hover:bg-[#4169E1] transition-colors">
                 <Icon size={20} />
               </div>
               <p className="font-semibold text-sm">{label}</p>
@@ -150,7 +150,7 @@ export default function HomePage() {
           {personalInfo.skills.map((skill, i) => (
             <span
               key={skill}
-              className="px-4 py-2 rounded-full border border-[#E8E0D0] text-sm font-medium hover:bg-[#F5C518] hover:border-[#F5C518] transition-all cursor-default"
+              className="px-4 py-2 rounded-full border border-[#E8E0D0] text-sm font-medium hover:bg-[#4169E1] hover:border-[#4169E1] transition-all cursor-default"
               style={{ animationDelay: `${i * 50}ms` }}
             >
               {skill}
@@ -168,7 +168,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/proyectos"
-            className="hidden md:inline-flex items-center gap-2 text-sm font-medium hover:text-[#F5C518] transition-colors group"
+            className="hidden md:inline-flex items-center gap-2 text-sm font-medium hover:text-[#4169E1] transition-colors group"
           >
             Ver todos
             <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
@@ -192,7 +192,7 @@ export default function HomePage() {
             <div className="mt-6 flex gap-3">
               <Link
                 href="/proyectos"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#0D0D0D] text-white rounded-full text-sm font-medium hover:bg-[#F5C518] hover:text-[#0D0D0D] transition-all"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#0D0D0D] text-white rounded-full text-sm font-medium hover:bg-[#4169E1] hover:text-[#0D0D0D] transition-all"
               >
                 Ver proyecto <ArrowRight size={14} />
               </Link>

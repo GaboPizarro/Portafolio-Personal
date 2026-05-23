@@ -5,8 +5,8 @@ import { TagPill } from "@/components/ui/TagPill";
 import { PhotoGrid } from "@/components/ui/PhotoGrid";
 
 export const metadata = {
-  title: "Voluntariados — Sebastián Morales",
-  description: "Trabajo voluntario y compromiso social de Sebastián Morales.",
+  title: "Voluntariados — Gabriel Pizarro Rivera",
+  description: "Trabajo voluntario y compromiso social de Gabriel Pizarro Rivera.",
 };
 
 export default function VoluntariadosPage() {
@@ -28,7 +28,7 @@ export default function VoluntariadosPage() {
             { value: "4+", label: "Años de voluntariado" },
           ].map(({ value, label }) => (
             <div key={label} className="bg-white rounded-2xl p-5 border border-[#E8E0D0] text-center">
-              <p className="font-display text-3xl font-black text-[#F5C518]">{value}</p>
+              <p className="font-display text-3xl font-black text-[#4169E1]">{value}</p>
               <p className="text-xs text-[#6B6B6B] mt-1 font-medium">{label}</p>
             </div>
           ))}
@@ -45,7 +45,7 @@ export default function VoluntariadosPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="w-11 h-11 rounded-xl bg-[#F5C518] flex items-center justify-center flex-shrink-0">
+                    <div className="w-11 h-11 rounded-xl bg-[#4169E1] flex items-center justify-center flex-shrink-0">
                       <Heart size={20} className="text-[#0D0D0D]" />
                     </div>
                     <div>
@@ -55,7 +55,7 @@ export default function VoluntariadosPage() {
                   </div>
 
                   <div className="flex items-center gap-2 text-sm text-[#6B6B6B] mb-4">
-                    <Calendar size={13} className="text-[#F5C518]" />
+                    <Calendar size={13} className="text-[#4169E1]" />
                     {item.period}
                   </div>
 
